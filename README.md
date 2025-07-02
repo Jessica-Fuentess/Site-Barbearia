@@ -1,6 +1,12 @@
-# ✂️ Cruzeiro Cortes - Site Institucional para Barbearia
+# 💈✂️ Projeto Barbearia - Cruzeiro Cortes
 
-Um **site institucional responsivo e moderno** desenvolvido para a barbearia *Cruzeiro Cortes*, criado como projeto acadêmico individual. O site destaca a paixão pela arte do corte de cabelo, atendimento personalizado e a excelência da equipe, apresentando a barbearia de forma profissional e acolhedora para clientes e visitantes.
+Este projeto foi desenvolvido como exercício prático de **desenvolvimento front-end** durante a faculdade. Trata-se de um site institucional fictício para a barbearia **Cruzeiro Cortes**, com o objetivo de **praticar e demonstrar habilidades em HTML, CSS e JavaScript**.
+
+A aplicação possui uma **interface moderna, responsiva e interativa**, utilizando **layout com Flexbox e Grid**, além de **media queries** para adaptação em diferentes dispositivos. A navegação do site é fluida e otimizada com **JavaScript puro**, incluindo menus adaptáveis, **carrosséis de imagens** com controles, e um **formulário funcional** para simulação de contato.
+
+O projeto integra também **Google Maps via iframe**, botão flutuante de **WhatsApp** e uma estrutura visual bem definida, com foco em **experiência do usuário (UX)** e **identidade visual coerente**, explorando uma paleta de cores sóbria (preto, branco e vermelho).
+
+> Este repositório representa um ótimo exemplo de aplicação de conceitos fundamentais de front-end, com código organizado, comentado e com atenção aos detalhes de UI/UX.
 
 ---
 
