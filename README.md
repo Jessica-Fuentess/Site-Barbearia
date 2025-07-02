@@ -6,7 +6,7 @@ Um **site institucional responsivo e moderno** desenvolvido para a barbearia *Cr
 
 ## 🌐 Demonstração
 
-🔗 Acesse o projeto online [https://jessica-fuentess.github.io/Site-Barbearia/]
+🔗 [Acesse o projeto online](https://jessica-fuentess.github.io/Site-Barbearia/)
 ---
 
 ## 🌟 Sobre o Projeto
