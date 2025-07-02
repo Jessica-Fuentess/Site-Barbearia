@@ -101,7 +101,8 @@ O site foi desenvolvido para garantir ótima experiência em qualquer dispositiv
 
 ---
 
-##👩‍💻 Sobre a Autora
+## 👩‍💻 Sobre a Autora
+
 Desenvolvido por Jéssica Fuentes 💜, desenvolvedora front-end em transição de carreira, apaixonada por criar interfaces modernas, responsivas e acessíveis.
 
 🔗 [LinkedIn](https://www.linkedin.com/in/j%C3%A9ssica-fuentes/)
