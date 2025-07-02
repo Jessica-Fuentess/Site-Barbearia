@@ -1,0 +1,434 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+header{
+    background-color: rgb(37, 34, 34);
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    padding: 40px;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+header nav{
+    position: absolute;
+    top: 11%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+header img{
+    opacity: 60%;
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    box-shadow: 0px 1px 3px white;
+}
+
+#menu-btn {
+    font-size: 2em;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    z-index: 1000;
+    position: relative;
+    display: none;
+}
+
+main{
+    background-image: url(Imagens/imagemFundo.jpeg);
+    margin: auto;
+    color: white;
+    line-height: 1.5em;
+}
+
+main h1{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+main p{
+    font-size: 1.3em;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: auto;
+    padding-top: 100px;
+    width: 70%;
+    gap: 20px;
+}
+
+#logo img{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px white;
+}
+
+#logo p{
+    text-align: justify;
+}
+
+.texto h1{
+    padding-bottom: 8px;
+}
+
+.agende{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.agende button{
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.agende button:hover{
+    border: 3px solid white;
+    transform: scale(1) translate(-1px, -1px);
+    box-shadow: 0px 0px 10px white;
+}
+
+#objetivo{
+    padding-top: 200px;
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    font-size: 15px;
+}
+
+#objetivo h1{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.carrossel {
+    padding-top: 240px;
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.carrossel h1{
+    padding-bottom: 20px;
+}
+
+.carrossel img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: none;
+    transition: opacity 0.5s ease;
+    box-shadow: 0px 0px 5px white;
+    border-radius: 5px;;
+}
+
+.carrossel .imagem.ativa {
+    display: block;
+}
+
+.botao-carrossel {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.botao-carrossel button {
+    margin: 0 3px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+
+.botao-carrossel .botao:hover {
+    border: 3px solid rgb(46, 6, 6);
+    padding: 3px;
+    transform: scale(1) translate(-1px, -1px);
+    box-shadow: 0px 0px 10px white;
+}
+
+.seta-esquerda, .seta-direita {
+    position: absolute;
+    top: 75%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 1;
+    border-radius: 2px;
+}
+
+.seta-esquerda:hover, .seta-direita:hover {
+    border: 1px solid rgb(46, 6, 6);
+    padding: 7px;
+    box-shadow: 0px 0px 5px white;
+}
+
+.seta-esquerda {
+    left: 10px;
+}
+
+.seta-direita {
+    right: 10px;
+}
+
+#valores{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    margin: auto;
+    padding-top: 240px;
+    text-align: center;
+}
+
+#valores h1{
+    padding-bottom: 60px;
+    grid-column: 1 / -1;
+    font-size: 22px;
+}
+
+#valores h2{
+    padding-bottom: 18px;
+    Font-size: 20px;
+}
+
+#valores li{
+    list-style-type: none;
+    line-height: 30px;
+    font-size: 19px;
+}
+
+#fotos{
+    padding-top: 240px;
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+#fotos h1{
+    padding-bottom: 20px;
+}
+
+#fotos img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: none;
+    transition: opacity 0.5s ease;
+    box-shadow: 0px 0px 5px white;
+    border-radius: 5px;;
+}
+
+#fotos .imagem2.ativa2 {
+    display: block;
+}
+
+#fotos-carrossel {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 240px;
+}
+
+#fotos-carrossel button {
+    margin: 0 3px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+
+#fotos-carrossel .botao2:hover {
+    border: 3px solid rgb(46, 6, 6);
+    padding: 3px;
+    transform: scale(1) translate(-1px, -1px);
+    box-shadow: 0px 0px 10px white;
+}
+
+.seta-esquerda2, .seta-direita2 {
+    position: absolute;
+    top: 75%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 1;
+    border-radius: 2px;
+}
+
+.seta-esquerda2:hover, .seta-direita2:hover {
+    border: 1px solid rgb(46, 6, 6);
+    padding: 7px;
+    box-shadow: 0px 0px 5px white;
+}
+
+.seta-esquerda2 {
+    left: 10px;
+}
+
+.seta-direita2 {
+    right: 10px;
+}
+
+#form { 
+    background-color: black;
+    color: white;
+    width: 30%;
+    margin: auto;
+    border: 10px  white;
+    border-style: double;
+    line-height: 30px;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+#form h1{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+textarea {
+    width: 400px;
+    height: 80px;
+}
+
+#enviar{
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+#enviar:hover{
+    border: 1px solid white;
+    transform: scale(1) translate(-1px, -1px);
+    box-shadow: 0px 0px 5px white;
+}
+
+#caixa{
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#localizacao{
+    display: block;
+    columns: 3;
+    opacity: 90%;
+    background-color: rgb(2, 2, 32);
+    color: white;
+    text-align: center;
+    box-shadow: 0px 0px 6px white;
+}
+
+#localizacao h1{
+    font-size: 25px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#localizacao p{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+aside{
+    background-image: url(Imagens/imagemFundo.jpeg);
+    background-size: contain;
+    display: flex;
+    line-height: 1.5em;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+#contato, #horario{
+    flex: 1;
+    color: white;
+}
+
+#contato h1{
+    font-size: 25px;
+    padding-bottom: 8px;
+}
+
+#horario h1{
+    padding-top: 12px;
+    font-size: 25px;
+    padding-bottom: 8px;
+}
+
+#horario li{
+    list-style-type: none;
+}
+
+#whats{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#logowhats{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+#logowhats:hover{
+    border: 3px solid green;
+    padding: 3px;
+    transform: scale(1) translate(-1px, -1px);
+    box-shadow: 0px 0px 10px white;
+}
+
+footer{
+    background-color: rgb(46, 6, 6);
+    color: white;
+    text-align: center;
+    font-size: 0.7em;
+    box-shadow: 0px 0px 5px white;
+}
+
+footer p{
+    padding: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }

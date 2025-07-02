@@ -1,0 +1,134 @@
+@media screen and (max-width: 768px) {
+    #menu {
+        display: none;
+    }
+
+    #menu.ativo {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        position: absolute;
+        top: 90px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgb(46, 6, 6);
+        border-radius: 5px;
+        z-index: 999;
+        width: 150px;
+        font-size: 0.8em;
+    }
+
+    #menu.ativo a:hover{
+        text-decoration: underline;
+    }
+    
+    #menu a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #menu-btn {
+        display: block;
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 9999;
+    }
+
+    #logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo img {
+        width: 320px;
+        height: 300px;
+        order: -1;
+    }
+
+    .texto p {
+        font-size: 1.2em;
+        order: 1;
+    }
+
+    #objetivo {
+        font-size: 0.9em;
+        width: 80%;
+    }
+
+    #espaco2{
+        width: 80%;
+    }
+
+    #fotos{
+        width: 80%;
+    }
+
+    #valores{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #valores .coluna2{
+        padding-top: 40px;
+    }
+
+    #valores li{
+        font-size: 1em;
+    }
+
+    #localizacao {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    #localizacao iframe {
+        width: 90%; 
+        height: 200px; 
+        margin-bottom: 15px; 
+    }
+
+    #form {
+        padding: 20px; 
+        width: 80%;
+    }
+
+    #form input, #form textarea {
+        font-size: 1em; 
+        padding: 1px;
+    }
+
+    #form textarea {
+        width: 99%;
+    }
+
+    #form h1 {
+        font-size: 1em; 
+        text-align: center;
+    }
+
+    #form input[type="submit"] {
+        font-size: 1em; 
+        padding: 2px;
+        width: 20%; 
+    }
+
+    aside{
+        font-size: 1em;
+    }
+
+    aside #contato{
+        padding-top: 10px;
+    }
+
+    aside #horario{
+        padding-bottom: 10px;
+    }
+}
