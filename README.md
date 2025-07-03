@@ -62,14 +62,14 @@ Cruzeiro Cortes é um site que transmite a essência de uma barbearia tradiciona
 ## 🖼️ Estrutura do Projeto
 
 ```bash
-Projeto-Barbearia/
-├── index.html          # Estrutura principal do site
-├── style.css           # Estilos principais (cores, layout, tipografia)
-├── responsivo.css      # Estilos para responsividade (media queries)
-├── script.js           # Funções JS para carrosséis e menu responsivo
-├── Imagens/            # Fotos do espaço, serviços e ícones
-├── Fontes/             # Fonte personalizada (se aplicável)
-└── README.md           # Documentação do projeto
+📁 Projeto-Barbearia/
+├── 📄 index.html          # Estrutura principal do site
+├── 🎨 style.css           # Estilos principais (cores, layout, tipografia)
+├── 📱 responsivo.css      # Estilos para responsividade (media queries)
+├── ⚙️ script.js           # Funções JS para carrosséis e menu responsivo
+├── 🖼️ Imagens/            # Fotos do espaço, serviços e ícones
+├── 🔤 Fontes/             # Fonte personalizada (se aplicável)
+└── 📄 README.md           # Documentação do projeto
 ```
 
 ---
