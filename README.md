@@ -6,7 +6,7 @@ A aplicação possui uma **interface moderna, responsiva e interativa**, utiliza
 
 O projeto integra também **Google Maps via iframe**, botão flutuante de **WhatsApp** e uma estrutura visual bem definida, com foco em **experiência do usuário (UX)** e **identidade visual coerente**, explorando uma paleta de cores sóbria (preto, branco e vermelho).
 
-> Este repositório representa um ótimo exemplo de aplicação de conceitos fundamentais de front-end, com código organizado, comentado e com atenção aos detalhes de UI/UX
+> Este repositório representa um ótimo exemplo de aplicação de conceitos fundamentais de front-end, com código organizado, comentado e com atenção aos detalhes de UI/UX.
 
 ---
 
