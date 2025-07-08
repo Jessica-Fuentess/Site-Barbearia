@@ -112,4 +112,4 @@ Este projeto está sob a licença MIT — sinta-se à vontade para usar, modific
 
 ---
 
-✨ Obrigada por visitar o projeto! Se gostou, deixe uma estrela ⭐ no repositório e envie seu feedback! Isso ajuda muito no meu crescimento profissional
+✨ Obrigada por visitar o projeto! Se gostou, deixe uma estrela ⭐ no repositório e envie seu feedback! Isso ajuda muito no meu crescimento profissional.
