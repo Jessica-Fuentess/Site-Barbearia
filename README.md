@@ -108,8 +108,8 @@ Desenvolvido por Jéssica Fuentes 💜, desenvolvedora front-end em transição 
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT — sinta-se à vontade para usar, modificar e compartilhar!
+Este projeto está sob a licença MIT — sinta-se à vontade para usar, modificar e compartilhar!.
 
 ---
 
-✨ Obrigada por visitar o projeto! Se gostou, deixe uma estrela ⭐ no repositório e envie seu feedback! Isso ajuda muito no meu crescimento profissional..
+✨ Obrigada por visitar o projeto! Se gostou, deixe uma estrela ⭐ no repositório e envie seu feedback! Isso ajuda muito no meu crescimento profissional.
